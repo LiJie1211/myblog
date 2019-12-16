@@ -1,11 +1,11 @@
 # MyBlog
 
-#### 项目链接：[www.zhyocean.cn](https://www.zhyocean.cn)
+#### 项目链接：[www.lijiewmq.cn](https://www.lijiewmq.cn)
 
 #### 关于本地开发
-可直接导入该项目于本地，修改配置文件中的数据库连接信息，导入附带数据库结构的SQL文件可直接生成所有表，项目中使用到的关于阿里云功能还需开发者自行前往阿里云进行相应功能开通。
+可直接导入该项目于本地，修改配置文件中的数据库连接信息，导入附带数据库结构的SQL文件(mysql.sql)可直接生成所有表，项目中使用到的关于阿里云功能还需开发者自行前往阿里云进行相应功能开通。
 
-**当你克隆项目到本地后可使用手机号：19940790216，密码：123456进行登录，也可自行注册并将其修改为最高管理权限。**
+**当你克隆项目到本地后可使用手机号：13452646414，密码：123456进行登录，也可自行注册并将其修改为最高管理权限。**
 
 #### 项目介绍  
 - 关于项目，对于学习Springboot是个挺不错的练手项目，可以让你在烦恼的业务逻辑中保持一颗纯洁的心
@@ -18,16 +18,16 @@
 ## 页面展示
 
 ##### 首页展示
-![](https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/public/%E5%8D%9A%E5%AE%A2%E6%97%A5%E5%BF%97/SpringBoot%E4%B9%8B%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/20180802120610.png)
+![](https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%95%88%E6%9E%9C%E5%B1%95%E7%A4%BA/index.png)
 <br>
 ##### 文章编辑
-![](https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/public/%E5%8D%9A%E5%AE%A2%E6%97%A5%E5%BF%97/SpringBoot%E4%B9%8B%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/20180802120611.png)
+![](https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%95%88%E6%9E%9C%E5%B1%95%E7%A4%BA/edit.png)
 <br>
 ##### 后台管理
-![](https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/public/%E5%8D%9A%E5%AE%A2%E6%97%A5%E5%BF%97/SpringBoot%E4%B9%8B%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/20180802121241.png)
+![](https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%95%88%E6%9E%9C%E5%B1%95%E7%A4%BA/houtai.png)
 <br>
 ##### 用户个人中心
-![](https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/public/%E5%8D%9A%E5%AE%A2%E6%97%A5%E5%BF%97/SpringBoot%E4%B9%8B%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/20180802121749.png)
+![](https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%95%88%E6%9E%9C%E5%B1%95%E7%A4%BA/user.png)
 
 ## 项目需求
 #### 项目背景
@@ -112,21 +112,21 @@
 
 #### 结构设计
 
-![](https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/public/%E5%8D%9A%E5%AE%A2%E6%97%A5%E5%BF%97/SpringBoot%E4%B9%8B%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/20180802140136.png)
+![](https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%95%88%E6%9E%9C%E5%B1%95%E7%A4%BA/construct.png)
 对于熟悉Spring开发的朋友来说，相信对此结构也不会陌生。平时的开发过程中，结构设计是重要的环节，特别是协作开发的时候，明细的分包，模块化，可减少代码提交时的冲突。并且明确的结构有助于我们快速的寻找所对应的类。
 
 ## 业务设计
 #### 发布文章流程
 
-![](https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/public/%E5%8D%9A%E5%AE%A2%E6%97%A5%E5%BF%97/SpringBoot%E4%B9%8B%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/20180802141221.png)
+![](https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%B5%81%E7%A8%8B%E5%9B%BE/article.png)
 
 #### 登录流程
 
-![](https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/public/%E5%8D%9A%E5%AE%A2%E6%97%A5%E5%BF%97/SpringBoot%E4%B9%8B%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/201808021412271.png)
+![](https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%B5%81%E7%A8%8B%E5%9B%BE/login.png)
 
 #### 用户个人资料修改流程
 
-![](https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/public/%E5%8D%9A%E5%AE%A2%E6%97%A5%E5%BF%97/SpringBoot%E4%B9%8B%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/20180802143230.png)
+![](https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%B5%81%E7%A8%8B%E5%9B%BE/change.png)
 
 ## 打包、部署和运行
 - 本项目采用Springboot的maven插件进行打包，打包结果：****.jar
@@ -192,9 +192,9 @@
 - 本项目开发并不是很难，只是在业务的实现上比较复杂
 
 ###### 页面与展示
-- 作为一名后端开发，对于css的功力有所欠缺，这里我使用了[妹子UI主题](http://amazeui.org/ "妹子UI主题")，极大的减少了页面的开发难度，特此感谢
+- 作为一名后端开发，这里我使用了[妹子UI主题](http://amazeui.org/ "妹子UI主题")，极大的减少了页面的开发难度。
 - 前端页面与后端的交互主要是在controller包中，并使用Thymeleaf渲染页面。
-- 自定义异常处理页面，通过重写`WebMvcConfigurerAdapter`实现自动跳转到404、403页面
+- 自定义异常处理页面，通过重写`WebMvcConfigurerAdapter`实现自动跳转到404、403页面。
 
 ###### 其他功能
 - 使用lazyload插件实现页面图片懒加载
@@ -205,19 +205,15 @@
 ###### 网站建设
 - 服务器选用的是阿里云centos7
 - 域名是阿里云上购买的.cn的域名
-- 网站备案以及公安机关备案，后者备案时间较短但是那个备案网站经常挂掉，所以公安机关备案还得看运气。而网站备案时间就比较长了，按照阿里云的流程走大概1个月左右时间，需要上传个人身份信息以及邮寄个人资料过去。
-- 网站配置了安全证书，可实现https访问以及自动从http跳转到https
+- 网站备案以及公安机关备案，可能这个步骤时间比较久。
+- 网站配置了ssl安全证书，可实现https访问以及自动从http跳转到https
 
 ## 总结
-#### 开发中遇到的难点
-- 要实现在一个页面进行权限验证，如果验证不成功会跳转到登录界面，并且登录成功后还要返回到之前界面，这里由于对SpringSecurity内部原理的不了解，所以我这里采用的方法是利用请求头和响应头存储url，并在登录成功后的页面出跳转到响应头中存储的url处
-- 上传头像处使用上传头像至阿里云的OSS对象存储中，由于上传问题并没有返回上传成功后的图片url地址，于是只好设置OSS的Bucket为公共读权限，然后当上传成功后手动拼接图片url并存入数据库
-- 项目中最大的难点还是莫过于页面css的设计，但是使用了[妹子UI](http://amazeui.org/ "妹子UI")后极大的解决了这个问题，只需修改少量css就能实现自己所需要的样式
 
 #### 博客网站优缺点
 - 首先最大的一个缺点就是在前端页面设计过程中混用了一些Bootstrap，导致依赖过于复杂，不便于后期修改，已经网站上有一些隐藏的bug
 - 对于页面用户体验以及反馈功能的设计便于用户对于浏览过程中出现的问题进行反馈
-- 后端部分明确的分工有利于项目的理解与维护
+- 后端部分低耦合有利于项目的理解与维护
 
 #### 项目整体优化
 - 目前项目首页以及文章页响应时间过长，后期最好优化到1s响应时间
@@ -226,5 +222,15 @@
 - 手机端浏览文章页面会出现代码自动换行问题，不便于浏览过程（已解决）
 
 #### 未来需增加的功能
-- 增加文章分享至QQ、微信、微博中功能
-- 用户收藏文章功能
+- 暂无计划
+
+#### 建站大概步骤
+- 1.购买服务器（服务器上安装JDK、mysql、tomcat、nginx、redis）
+- 2.购买域名
+- 3.域名备案（时间周期较长，可同时进行编码）
+- 4.域名进行解析绑定在服务器上
+- 5.购买免费的个人域名SSL证书
+- 6.安装证书到nginx里面（https://help.aliyun.com/document_detail/98728.html?spm=5176.2020520163.0.0.3090HLMMHLMMnE）
+- 7.修改Tomcat、nginx配置（https://www.cnblogs.com/wuzm/p/11110534.html）
+- 8.将项目打包成war上传至服务器（https://blog.csdn.net/qq_33591903/article/details/90715370）
+- 9.运行nginx
