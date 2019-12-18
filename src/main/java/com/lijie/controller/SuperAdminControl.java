@@ -17,7 +17,6 @@ import java.security.Principal;
 
 /**
  * @author: lijie
- * @Date: 2018/7/25 16:14
  * Describe: 超级管理页面
  */
 @RestController

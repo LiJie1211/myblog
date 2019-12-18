@@ -23,9 +23,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/src/main/resources/static/css/bang" />
-      <excludeFolder url="file://$MODULE_DIR$/src/main/resources/static/img/bang" />
-      <excludeFolder url="file://$MODULE_DIR$/src/main/resources/static/js/bang" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

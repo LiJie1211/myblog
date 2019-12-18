@@ -18,7 +18,6 @@ import java.util.Map;
 
 /**
  * @author: lijie
- * @Date: 2018/5/17 19:24
  * Describe: 所有页面跳转
  */
 @Controller
@@ -130,6 +129,14 @@ public class BackControl {
     @GetMapping("/gamecenter")
     public String gamecenter(){
         return "gamecenter";
+    }
+
+    /**
+     * 跳转我的相册页
+     */
+    @GetMapping("/album")
+    public String album(){
+        return "album";
     }
 
     /**

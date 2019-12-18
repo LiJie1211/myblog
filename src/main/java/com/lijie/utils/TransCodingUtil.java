@@ -5,7 +5,6 @@ import java.net.URLDecoder;
 
 /**
  * @author: lijie
- * @Date: 2018/6/22 21:17
  * Describe: 转码工具
  */
 public class TransCodingUtil {

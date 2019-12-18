@@ -10,7 +10,6 @@ import java.util.List;
 
 /**
  * @author: lijie
- * @Date: 2018/6/4 15:52
  * Describe: user表SQL语句
  */
 @Mapper

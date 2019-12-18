@@ -7,7 +7,6 @@ import com.lijie.model.User;
 
 /**
  * @author: lijie
- * @Date: 2018/6/4 15:54
  * Describe: user业务操作
  */
 public interface UserService {

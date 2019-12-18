@@ -2,7 +2,6 @@ package com.lijie.constant;
 
 /**
  * @author: lijie
- * @Date: 2018/6/9 19:45
  * Describe: 阿里云连接密钥
  */
 public class OSSClientConstants {

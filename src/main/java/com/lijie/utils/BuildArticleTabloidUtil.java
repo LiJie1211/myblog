@@ -2,8 +2,7 @@ package com.lijie.utils;
 
 /**
  * @author: lijie
- * @Date: 2018/6/24 9:51
- * Describe: markdown截取文章生成摘要
+ * Describe: markdown截取文章生成摘要工具
  */
 public class BuildArticleTabloidUtil {
 

@@ -14,8 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * @author: lijie
- * @Date: 2018/7/17 20:50
- * Describe:
+ * Describe:分类管理
  */
 @RestController
 public class CategoriesControl {

@@ -10,7 +10,6 @@ import com.lijie.model.LeaveMessageLikesRecord;
 
 /**
  * @author: lijie
- * @Date: 2018/7/16 15:33
  * Describe: 留言点赞sql
  */
 @Mapper

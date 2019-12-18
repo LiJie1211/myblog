@@ -4,7 +4,6 @@ import org.springframework.stereotype.Component;
 
 /**
  * @author: lijie
- * @Date: 2018/6/4 15:07
  * Describe: 手机验证码随机生成
  */
 @Component

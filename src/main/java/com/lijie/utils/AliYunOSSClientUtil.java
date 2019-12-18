@@ -19,7 +19,7 @@ import java.util.Date;
 
 /**
  * @author: lijie
- * Describe: 阿里云OSS连接
+ * Describe: 阿里云OSS连接工具
  */
 public class AliYunOSSClientUtil {
 

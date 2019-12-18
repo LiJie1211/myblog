@@ -14,7 +14,6 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 /**
  * @author: lijie
- * @Date: 2018/6/5 18:45
  * Describe: SpringSecurity配置
  */
 @Configuration
@@ -54,9 +53,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
     protected void configure(HttpSecurity http) throws Exception {
         http
             .authorizeRequests()
-            .antMatchers("/","/index","/aboutme","/archives","/categories","/friendlylink","/tags","/update")
+            .antMatchers("/","/index","/aboutme","/archives","/categories","/friendlylink","/tags","/update","gamecenter")
                 .permitAll()
-                .antMatchers("/editor","/user").hasAnyRole("USER")
+                .antMatchers("/editor","/user","/mystory").hasAnyRole("USER")
                 .antMatchers("/superadmin","/myheart","/today","/yesterday","/mylove").hasAnyRole("SUPERADMIN")
                 .and()
                 .formLogin().loginPage("/login").failureUrl("/login?error").defaultSuccessUrl("/")

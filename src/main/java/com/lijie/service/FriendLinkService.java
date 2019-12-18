@@ -8,8 +8,7 @@ import net.sf.json.JSONObject;
 
 /**
  * @author: lijie
- * @Date: 2019/5/16 17:08
- * Describe:
+ * Describe:友链业务操作
  */
 public interface FriendLinkService {
 

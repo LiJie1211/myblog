@@ -23,7 +23,6 @@ import java.security.Principal;
 
 /**
  * @author: lijie
- * @Date: 2018/7/5 16:21
  * Describe: 文章显示页面
  */
 @Controller

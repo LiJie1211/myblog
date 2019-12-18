@@ -1,5 +1,9 @@
 package com.lijie.utils;
 
+/**
+ * @author: lijie
+ * Describe: 测试MD5加密
+ */
 public class testMD5 {
 
 	public static void main(String[] args) {

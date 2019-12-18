@@ -8,7 +8,6 @@ import com.lijie.model.FeedBack;
 
 /**
  * @author: lijie
- * @Date: 2018/7/23 17:21
  * Describe:反馈业务操作
  */
 public interface FeedBackService {

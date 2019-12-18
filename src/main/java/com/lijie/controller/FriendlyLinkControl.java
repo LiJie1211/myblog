@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author: lijie
- * @Date: 2019/5/19 17:04
  * Describe: 友链页面
  */
 @RestController

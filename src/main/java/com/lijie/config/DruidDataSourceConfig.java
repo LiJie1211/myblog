@@ -22,7 +22,6 @@ import java.util.Map;
 
 /**
  * @author: lijie
- * @Date: 2018/9/8 14:37
  * Describe: Druid 数据库连接池配置
  */
 @Configuration

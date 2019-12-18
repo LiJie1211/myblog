@@ -10,7 +10,6 @@ import java.util.Map;
 
 /**
  * @author: lijie
- * @Date: 2018/6/20 21:41
  * Describe: 文章业务操作
  */
 public interface ArticleService {

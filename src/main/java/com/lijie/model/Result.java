@@ -4,7 +4,6 @@ import lombok.Data;
 
 /**
  * @author: lijie
- * @Date: 2019/5/18 17:15
  * Describe: 返回统一的响应格式
  */
 @Data

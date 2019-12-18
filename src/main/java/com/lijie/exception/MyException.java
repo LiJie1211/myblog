@@ -2,7 +2,6 @@ package com.lijie.exception;
 
 /**
  * @author: lijie
- * @Date: 2018/8/8 15:50
  * Describe:
  */
 public class MyException extends Exception {

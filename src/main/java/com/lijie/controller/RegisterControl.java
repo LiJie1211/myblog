@@ -15,8 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * @author: lijie
- * @Date: 2018/6/4 11:48
- * Describe:
+ * Describe:注册控制
  */
 @Controller
 public class RegisterControl {

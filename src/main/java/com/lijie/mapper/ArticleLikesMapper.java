@@ -9,7 +9,6 @@ import java.util.List;
 
 /**
  * @author: lijie
- * @Date: 2018/7/7 15:51
  * Describe: 文章点赞sql
  */
 @Mapper

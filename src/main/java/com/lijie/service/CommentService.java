@@ -9,7 +9,6 @@ import com.lijie.model.Comment;
 
 /**
  * @author: lijie
- * @Date: 2018/7/6 16:46
  * Describe:评论业务操作
  */
 public interface CommentService {

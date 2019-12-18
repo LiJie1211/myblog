@@ -4,6 +4,10 @@ import org.junit.Test;
 
 import com.alibaba.druid.filter.config.ConfigTools;
 
+/**
+ * @author: lijie
+ * Describe: 测试ENC加密
+ */
 public class ENCtest {
 
 	@Test

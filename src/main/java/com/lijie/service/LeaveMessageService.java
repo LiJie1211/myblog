@@ -8,7 +8,6 @@ import com.lijie.model.LeaveMessage;
 
 /**
  * @author: lijie
- * @Date: 2018/7/15 14:01
  * Describe:留言业务操作
  */
 public interface LeaveMessageService {

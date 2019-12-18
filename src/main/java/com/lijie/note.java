@@ -1,8 +1,8 @@
 package com.lijie;
 
 /**
- * @Author: Lewis
- * @Date: 2018/8/10 9:30
+ * @author: lijie
+ * Describe：Java AWT记事本
  */
 import java.awt.*;
 import java.awt.event.*;

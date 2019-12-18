@@ -12,7 +12,6 @@ import java.util.LinkedHashMap;
 
 /**
  * @author: lijie
- * @Date: 2019/5/12 21:29
  * Describe: redis业务逻辑
  */
 @Service

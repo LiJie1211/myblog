@@ -2,7 +2,6 @@ package com.lijie.redis;
 
 /**
  * @author: lijie
- * @Date: 2019/5/14 15:31
  * Describe:
  */
 public interface RedisService {

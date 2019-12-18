@@ -12,6 +12,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 /**
  * @author lijie
+ * Describe：启动类
  */
 @SpringBootApplication
 @EnableTransactionManagement

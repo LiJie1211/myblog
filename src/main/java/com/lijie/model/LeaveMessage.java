@@ -5,7 +5,6 @@ import lombok.NoArgsConstructor;
 
 /**
  * @author: lijie
- * @Date: 2018/7/15 12:31
  * Describe: 留言
  */
 @Data

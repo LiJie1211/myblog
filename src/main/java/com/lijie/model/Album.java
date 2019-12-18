@@ -7,12 +7,11 @@ import java.util.List;
 
 /**
  * @author: lijie
- * @Date:
  * Describe: 用户实体类
  */
 @Data
 @NoArgsConstructor
-public class album {
+public class Album {
 
 	/**
 	 * 相册id
@@ -93,7 +92,7 @@ public class album {
 		this.photos = photos;
 	}
 
-	public album(int id, int uid, String albumname, int photonum, String describe, List<Photo> photos) {
+	public Album(int id, int uid, String albumname, int photonum, String describe, List<Photo> photos) {
 		this.id = id;
 		this.uid = uid;
 		this.albumname = albumname;
@@ -102,11 +101,12 @@ public class album {
 		this.photos = photos;
 	}
 
-	public album(int id, int uid, String albumname, int photonum, String describe) {
+	public Album(int id, int uid, String albumname, int photonum, String describe) {
 		this.id = id;
 		this.uid = uid;
 		this.albumname = albumname;
 		this.photonum = photonum;
 		this.describe = describe;
 	}
+
 }

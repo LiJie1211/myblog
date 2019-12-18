@@ -29,31 +29,38 @@
     <div id="main">
         <div class="am-container">
             <div class="am-g">
-                <div class="site-inner">
-                    <div class="allTags">
-                        <div style="height: 550px">
-
-                        </div>
-                    </div>
-                    <div class="comment" style="margin: 100px auto 50px">
-                        <div class="comment-top">
-                            <div class="comment-top-input" th:if="${#httpServletRequest.remoteUser}">
-                                <textarea id="comment" placeholder="客官，来说两句吧..."></textarea>
-                            </div>
-                            <div class="comment-top-input" th:unless="${#httpServletRequest.remoteUser}">
-                                <div class="goToLogin">
-                                    &nbsp;&nbsp;&nbsp;<a id="toLogin">登录</a>后才可以发表留言呦...
-                                </div>
-                            </div>
-                            <div class="commentBtn">
-                                <button id="commentBtn" type="button" class="am-btn am-btn-secondary">发表留言</button>
-                            </div>
-                        </div>
-                        <div class="comment-bottom">
-
-                        </div>
-                    </div>
-                </div>
+                <ul class="am-avg-sm-3 boxes">
+                    <li class="box box-1">
+                        <a  href="/tuixiangzi" target="_blank">
+                            <img src="https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%B8%B8%E6%88%8F%E5%B0%81%E9%9D%A2/tuixiangzi.png" class="am-img-thumbnail am-animation-slide-top">
+                        </a>
+                    </li>
+                    <li class="box box-2">
+                        <a  href="/mofang" target="_blank">
+                            <img src="https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%B8%B8%E6%88%8F%E5%B0%81%E9%9D%A2/mofang.png" class="am-img-thumbnail am-animation-slide-top">
+                        </a>
+                    </li>
+                    <li class="box box-3">
+                        <a  href="/paopaolong" target="_blank">
+                            <img src="https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%B8%B8%E6%88%8F%E5%B0%81%E9%9D%A2/paopaolong.png" class="am-img-thumbnail am-animation-slide-top">
+                        </a>
+                    </li>
+                    <li class="box box-1">
+                        <a  href="/tuixiangzi" target="_blank">
+                            <img src="https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%B8%B8%E6%88%8F%E5%B0%81%E9%9D%A2/tuixiangzi.png" class="am-img-thumbnail am-animation-slide-top">
+                        </a>
+                    </li>
+                    <li class="box box-2">
+                        <a  href="/mofang" target="_blank">
+                            <img src="https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%B8%B8%E6%88%8F%E5%B0%81%E9%9D%A2/mofang.png" class="am-img-thumbnail am-animation-slide-top">
+                        </a>
+                    </li>
+                    <li class="box box-3">
+                        <a  href="/paopaolong" target="_blank">
+                            <img src="https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E6%B8%B8%E6%88%8F%E5%B0%81%E9%9D%A2/paopaolong.png" class="am-img-thumbnail am-animation-slide-top">
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>

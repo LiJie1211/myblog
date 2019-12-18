@@ -2,7 +2,6 @@ package com.lijie.component;
 
 /**
  * @author: lijie
- * @Date: 2018/12/28 12:37
  * Describe:
  */
 public class JavaScriptCheck {

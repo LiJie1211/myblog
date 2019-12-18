@@ -5,8 +5,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * @author: lijie
- * @Date: 2018/6/5 19:41
- * Describe: 权限
+ * Describe: 图片
  */
 @Data
 @NoArgsConstructor
@@ -14,11 +13,20 @@ public class Photo {
 
     private int id;
 
-    private String photoname;
+	/**
+	 * 图片名称
+	 */
+	private String photoname;
 
+	/**
+	 * 图片URL
+	 */
     private String photourl;
 
-    private String describe;
+	/**
+	 * 图片描述
+	 */
+	private String describe;
 
 	public int getId() {
 		return id;

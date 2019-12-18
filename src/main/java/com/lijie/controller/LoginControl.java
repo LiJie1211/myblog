@@ -15,7 +15,6 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * @author: lijie
- * @Date: 2018/6/8 9:24
  * Describe: 登录控制
  */
 @Controller

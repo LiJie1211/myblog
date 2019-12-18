@@ -7,7 +7,6 @@ import com.lijie.model.CommentLikesRecord;
 
 /**
  * @author: lijie
- * @Date: 2018/7/12 13:48
  * Describe: 评论点赞sql
  */
 @Mapper

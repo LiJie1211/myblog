@@ -6,7 +6,6 @@ import com.lijie.model.CommentLikesRecord;
 
 /**
  * @author: lijie
- * @Date: 2018/7/12 13:47
  * Describe:评论点赞记录业务操作
  */
 public interface CommentLikesRecordService {

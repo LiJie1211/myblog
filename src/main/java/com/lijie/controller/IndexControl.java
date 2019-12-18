@@ -18,7 +18,6 @@ import java.security.Principal;
 
 /**
  * @author: lijie
- * @Date: 2018/6/16 16:01
  * Describe:
  */
 @RestController

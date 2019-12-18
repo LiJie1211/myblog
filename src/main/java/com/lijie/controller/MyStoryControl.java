@@ -10,8 +10,7 @@ import com.lijie.service.ArticleService;
 
 /**
  * @author: lijie
- * @Date: 2018/7/23 11:44
- * Describe:
+ * Describe:我的故事
  */
 @RestController
 public class MyStoryControl {

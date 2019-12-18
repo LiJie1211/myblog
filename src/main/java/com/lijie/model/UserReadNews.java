@@ -7,7 +7,6 @@ import java.io.Serializable;
 
 /**
  * @author: lijie
- * @Date: 2019/5/6 15:39
  * Describe: 用户评论留言未读数
  */
 @Data

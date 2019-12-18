@@ -5,7 +5,6 @@ import org.springframework.stereotype.Repository;
 
 /**
  * @author: lijie
- * @Date: 2018/6/16 16:22
  * Describe: 访客sql
  */
 @Mapper

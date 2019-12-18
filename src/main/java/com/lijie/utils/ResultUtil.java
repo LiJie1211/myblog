@@ -4,7 +4,6 @@ import com.lijie.model.Result;
 
 /**
  * @author: lijie
- * @Date: 2019/5/18 19:13
  * Describe: 返回统一格式封装工具
  */
 public class ResultUtil {

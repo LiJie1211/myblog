@@ -19,8 +19,7 @@ import java.security.Principal;
 
 /**
  * @author: lijie
- * @Date: 2018/7/20 20:56
- * Describe:
+ * Describe:用户控制
  */
 @RestController
 @SuppressWarnings("all")

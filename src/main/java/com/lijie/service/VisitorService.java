@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * @author: lijie
- * @Date: 2018/6/16 16:19
  * Describe:访客业务操作
  */
 public interface VisitorService {

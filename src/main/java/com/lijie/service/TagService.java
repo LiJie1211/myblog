@@ -5,7 +5,6 @@ import org.springframework.stereotype.Service;
 
 /**
  * @author: lijie
- * @Date: 2018/7/16 19:50
  * Describe:标签业务操作
  */
 public interface TagService {

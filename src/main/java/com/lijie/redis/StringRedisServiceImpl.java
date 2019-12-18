@@ -9,7 +9,6 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * @author: lijie
- * @Date: 2019/5/6 13:52
  * Describe: String类型redis操作
  */
 @Service

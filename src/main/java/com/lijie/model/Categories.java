@@ -4,7 +4,6 @@ import lombok.Data;
 
 /**
  * @author: lijie
- * @Date: 2018/7/17 20:49
  * Describe: 文章分类
  */
 @Data
