@@ -1,10 +1,11 @@
 
     var deleteArticleId="";
+    var deleteUserId="";
     var friendLinkId="";
 
     $('.superAdminList .superAdminClick').click(function () {
         var flag = $(this).attr('class').substring(16);
-        $('#statistics,#articleManagement,#articleThumbsUp,#articleCategories,#friendLink,#userFeedback,#privateWord').css("display","none");
+        $('#statistics,#articleManagement,#articleThumbsUp,#articleCategories,#friendLink,#userFeedback,#privateWord,#userManagement').css("display","none");
         $("#" + flag).css("display","block");
     });
 
@@ -189,6 +190,61 @@
             $('#deleteAlter').modal('open');
         })
     }
+    //填充用户管理
+    function putInUserManagement(data) {
+        var userManagementTable = $('.userManagementTable');
+        userManagementTable.empty();
+        var table = $('<table class="table am-table am-table-bd am-table-striped admin-content-table  am-animation-slide-right"></table>');
+        table.append($('<thead>' +
+            '<tr>' +
+            '<th>ID</th><th>电话</th><th>昵称</th><th>真名</th><th>邮件</th><th>性别</th><th>角色</th><th>操作</th>' +
+            '</tr>' +
+            '</thead>'));
+        var tables = $('<tbody class="tables"></tbody>');
+        $.each(data['result'], function (index, obj) {
+        	console.log(obj['roles'].length)
+        	var str = '<tr id="u' + obj['id'] + '"><td>' + obj['id'] + '</td><td>' + obj['phone'] + '</td><td>' + obj['username'] + '</td> <td>' + obj['trueName'] + '</td> <td>' + obj['email'] + '</td> <td>' + obj['gender'] + '</td><td>';
+        	
+//            tables.append($('<tr id="u' + obj['id'] + '"><td>' + obj['id'] + '</td><td>' + obj['phone'] + '</td><td>' + obj['username'] + '</td> <td>' + obj['trueName'] + '</td> <td>' + obj['email'] + '</td> <td>' + obj['gender'] + '</td><td>')) 
+            for(var i=0; i < obj['roles'].length; i++){
+//            	tables.append(obj['roles'][i].name );
+            	str += obj['roles'][i].name +' '
+            	console.log(obj['roles'][i].name)
+            }
+//            tables.append($('</td><td>' +
+//                '<div class="am-dropdown" data-am-dropdown>' +
+//                '<button class="userManagementBtn userEditor am-btn am-btn-secondary">编辑</button>' +
+//                '<button class="userDeleteBtn userDelete am-btn am-btn-danger">删除</button>' +
+//                '</div>' +
+//                '</td>' +
+//                '</tr>'));
+            str += '</td><td>' +
+            '<div class="am-dropdown" data-am-dropdown>' +
+            '<button class="userManagementBtn userEditor am-btn am-btn-secondary">编辑</button>' +
+            '<button class="userDeleteBtn userDelete am-btn am-btn-danger">删除</button>' +
+            '</div></td></tr>';
+            tables.append($(str));
+        });
+        table.append(tables);
+        userManagementTable.append(table);
+        userManagementTable.append($('<div class="my-row" id="page-father">' +
+            '<div id="userManagementPagination">' +
+            '<ul class="am-pagination  am-pagination-centered">' +
+            '</ul>' +
+            '</div>' +
+            '</div>'));
+
+        $('.userManagementBtn').click(function () {
+           var $this = $(this);
+           var id = $this.parent().parent().parent().attr("id").substring(1);
+           window.location.replace("/editor?id=" + id);
+        });
+        $('.userDeleteBtn').click(function () {
+            var $this = $(this);
+            deleteUserId = $this.parent().parent().parent().attr("id").substring(1);
+            $('#deleteUser').modal('open');
+        })
+    }
     //填充点赞信息
     function putInArticleThumbsUp(data) {
         var msgContent = $('.msgContent');
@@ -303,6 +359,28 @@
                 } else {
                     successNotice("删除文章成功");
                     getArticleManagement(1);
+                }
+            },
+            error:function () {
+                alert("删除失败");
+            }
+        });
+    });
+  //删除用户
+    $('.sureUserDeleteBtn').click(function () {
+        $.ajax({
+            type:'get',
+            url:'/deleteUser',
+            dataType:'json',
+            data:{
+                id:deleteUserId
+            },
+            success:function (data) {
+                if(data == 0){
+                    dangerNotice("删除用户失败")
+                } else {
+                    successNotice("删除用户成功");
+                    getUserManagement(1);
                 }
             },
             error:function () {
@@ -466,6 +544,36 @@
             }
         });
     }
+    //获得用户管理用户
+    function getUserManagement(currentPage) {
+        $.ajax({
+            type:'post',
+            url:'/getUserManagement',
+            dataType:'json',
+            data:{
+                rows:10,
+                pageNum:currentPage
+            },
+            success:function (data) {
+                putInUserManagement(data);
+                scrollTo(0,0);//回到顶部
+
+                //分页
+                $("#userManagementPagination").paging({
+                    rows:data['pageInfo']['pageSize'],//每页显示条数
+                    pageNum:data['pageInfo']['pageNum'],//当前所在页码
+                    pages:data['pageInfo']['pages'],//总页数
+                    total:data['pageInfo']['total'],//总记录数
+                    callback:function(currentPage){
+                        getUserManagement(currentPage);
+                    }
+                });
+            },
+            error:function () {
+                alert("获取用户信息失败");
+            }
+        });
+    }
     //获得文章点赞信息
     function getArticleThumbsUp(currentPage) {
         $.ajax({
@@ -624,6 +732,10 @@
     //点击文章管理
     $('.superAdminList .articleManagement').click(function () {
         getArticleManagement(1);
+    });
+    //点击用户管理
+    $('.superAdminList .userManagement').click(function () {
+        getUserManagement(1);
     });
     //点击点赞管理
     $('.superAdminList .articleThumbsUp').click(function () {

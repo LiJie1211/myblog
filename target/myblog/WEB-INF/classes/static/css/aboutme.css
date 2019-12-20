@@ -37,7 +37,7 @@
     margin: 0 auto;
     max-width: 100%;
 }
-.zhy-info-words{
+.lijie-info-words{
     text-indent: 2em;
     font-size: 15px;
     font-family: '微软雅黑', '宋体', sans-serif;
@@ -47,63 +47,63 @@ blockquote ul li{
     font-size: 15px;
     line-height: 25px;
 }
-.zhy-title-QRCode-word{
+.lijie-title-QRCode-word{
     text-align: center;
     padding: 20px 0;
 }
-.zhy-life-title{
+.lijie-life-title{
     /*text-align: center;*/
     font-size: 32px;
     font-weight: 500;
 }
 /*初衷*/
-.zhy-original-title-h1{
+.lijie-original-title-h1{
     font-size: 30px;
     font-weight: 400;
     margin-bottom: 30px;
 }
-.zhy-original-title img{
+.lijie-original-title img{
     width: 300px;
     margin: 0 auto;
     max-width: 100%;
 }
-.zhy-erha{
+.lijie-erha{
     text-align: center;
     margin: 50px auto;
 }
-.zhy-original-words{
+.lijie-original-words{
     text-indent: 2em;
     font-size: 15px;
     font-family: '微软雅黑', '宋体', sans-serif;
     font-weight: 200;
 }
-.zhy-quot{
+.lijie-quot{
     margin: 10px auto;
 }
-.zhy-quot-font{
+.lijie-quot-font{
     font-family: '微软雅黑', '宋体', sans-serif;
     font-size: 15px;
 }
-.zhy-you{
+.lijie-you{
     text-align: center;
     margin: 50px auto;
 }
-.zhy-you img{
+.lijie-you img{
     width: 300px;
     margin: 0 auto;
     max-width: 100%;
 }
 /*意见反馈*/
-.zhy-opinion-title{
+.lijie-opinion-title{
     font-size: 30px;
     font-weight: 400;
 }
-.zhy-opinion img{
+.lijie-opinion img{
     width: 300px;
     margin: 0 auto;
     max-width: 100%;
 }
-.zhy-opinion-words{
+.lijie-opinion-words{
     font-size: 16px;
     font-family: 微软雅黑;
     font-weight: 500;

@@ -1,6 +1,6 @@
 
     //网站最后更新时间（版本更新需更改）
-    var siteLastUpdateTime = '2019年05月23日13点';
+    var siteLastUpdateTime = '2019年12月09日13点';
 
     //网站开始时间
     var siteBeginRunningTime = '2019-11-20 13:23:00';

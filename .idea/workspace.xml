@@ -1,292 +1,461 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="myblog" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b70dd013-f7cd-436f-9bb4-9fc42ac257e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lijie/controller/GameCenterControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/AlbumMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/album/album.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/album/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/album/hero-slider-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/album/magnific-popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/album/tooplate-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/games/mofang/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/games/paopaolong/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/games/paopaolong/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/games/paopaolong/trashhand-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/games/paopaolong/trashhand-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/games/paopaolong/trashhand-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/games/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/ball.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/paopaolong/audio_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/paopaolong/ball_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/paopaolong/ball_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/paopaolong/ball_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/paopaolong/ball_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/paopaolong/ball_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/paopaolong/bg_game_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/paopaolong/bg_game_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/paopaolong/bg_game_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/paopaolong/bg_menu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/paopaolong/bg_tile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/paopaolong/but_exit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/paopaolong/but_play_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/paopaolong/end_path.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/paopaolong/explosion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/paopaolong/extra_score.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/paopaolong/hero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/paopaolong/hit_area.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/paopaolong/msg_box.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/tuixiangzi/ball.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/tuixiangzi/block.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/tuixiangzi/box.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/tuixiangzi/down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/tuixiangzi/left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/tuixiangzi/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/tuixiangzi/up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/tuixiangzi/wall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/album/album.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/album/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/album/hero-slider-main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/album/jquery-1.11.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/album/jquery.magnific-popup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/album/tether.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/mapdata100.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/mofang/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/mofang/three.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/paopaolong/createjs-2013.12.12.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/paopaolong/jquery-2.0.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/paopaolong/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/tuixiangzi/mapdata100.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/combo.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/combo.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/game_over.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/game_over.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/combo.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/paopaolong/combo.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/paopaolong/combo.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/paopaolong/game_over.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/paopaolong/game_over.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/paopaolong/press_but.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/paopaolong/press_but.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/paopaolong/shot.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/paopaolong/shot.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/paopaolong/soundtrack.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/paopaolong/soundtrack.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/paopaolong/win.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/paopaolong/win.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/press_but.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/press_but.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/shot.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/shot.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/soundtrack.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/soundtrack.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/win.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/win.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/album.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/games/mofang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/games/paopaolong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/games/tuixiangzi.html" afterDir="false" />
+    <list default="true" id="b70dd013-f7cd-436f-9bb4-9fc42ac257e7" name="Default Changelist" comment="增加游戏">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/dunkin.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/games/2048/reset.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/games/2048/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/games/NeverGiveUp/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/games/eluosifangkuai/4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/games/eluosifangkuai/bootstrap.min.black.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/games/eluosifangkuai/vendor/howler.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/games/pop/game.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/games/tanke/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/games/xiangqi/Chess.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/games/xiangqi/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/bbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/bselect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/btn1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/btn3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/btnselect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/btnselect1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/btnselect2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/dead.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/fire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/gbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/greenz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/gselect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/machine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/machine_b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/plate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/plates.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/rbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/redz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/replay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/rselect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/spatter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/star1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/star2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/terminal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/wat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/water.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/wbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/NeverGiveUp/wselect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/background/backdrop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/background/grid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/fonts/04b03-mono-digits.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/fonts/deja-vu-12-orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/fonts/deja-vu-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/fonts/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/fonts/made-with-impact.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/fonts/qzone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/fonts/tsina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/fonts/tungsten-18-orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/fonts/tungsten-18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/fonts/tungsten-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/fonts/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/phobos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/sprites/04b03-mono-digits.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/sprites/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/sprites/deja-vu-12-orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/sprites/deja-vu-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/sprites/destroyer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/sprites/explosion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/sprites/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/sprites/made-with-impact.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/sprites/mine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/sprites/missle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/sprites/oppressor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/sprites/plasma.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/sprites/plasma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/sprites/qzone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/sprites/ship.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/sprites/tsina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/sprites/tungsten-18-orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/sprites/tungsten-18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/sprites/tungsten-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/dazi/sprites/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/eluosifangkuai/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/eluosifangkuai/blocks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pacman/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/branding/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/branding/splash1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/loading/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/opening/kitty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/opening/kittytitle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/opening/m_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/opening/shield.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/opening/title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/orientate/landscape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/splash/mobile/cover-start.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/armo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/baby.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/babyshadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/bar-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/board.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/bottom-wall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/bubbles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/burst.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/continue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/darkaura.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/floor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/gear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/grad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/home-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/infi-locked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/infi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/level.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/light1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/light2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/light3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/light4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/line_star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/log-front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/log.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/lvl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/mushroom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/ok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/rank-base-big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/rank-base-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/rank-big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/rank-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/ray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/replay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/ring.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/score.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/setting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/skull.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/slider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/sound.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/speech.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/star-bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/star-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/star1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/star2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/star3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/star4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/star_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/star_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/star_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/start.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/text-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/top-wall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/tut-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/pop/sprites/wall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/tanke/menu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/tanke/tankAll.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/xiangsuxiaoniao/2000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/xiangsuxiaoniao/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/xiangsuxiaoniao/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/xiangsuxiaoniao/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/xiangsuxiaoniao/number1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/xiangsuxiaoniao/number2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/xiangsuxiaoniao/s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/games/xiangsuxiaoniao/s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/2048/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/NeverGiveUp/Mtween.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/NeverGiveUp/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/NeverGiveUp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/dazi/ztype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/eluosifangkuai/Block.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/eluosifangkuai/Board.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/eluosifangkuai/Canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/eluosifangkuai/Keyboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/eluosifangkuai/Leval.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/eluosifangkuai/Nextshape.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/eluosifangkuai/ResourceManager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/eluosifangkuai/Score.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/eluosifangkuai/Shape.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/eluosifangkuai/Tetris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/eluosifangkuai/Timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/eluosifangkuai/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/eluosifangkuai/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/eluosifangkuai/highscore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/pacman/game.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/pacman/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/pop/game.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/tanke/Collision.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/tanke/Helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/tanke/bullet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/tanke/const.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/tanke/crackAnimation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/tanke/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/tanke/keyboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/tanke/level.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/tanke/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/tanke/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/tanke/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/tanke/num.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/tanke/prop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/tanke/stage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/tanke/tank.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/xiangqi/CChess.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/xiangqi/CMoveRule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/xiangqi/OnDoing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/xiangqi/Show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/xiangqi/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/games/xiangsuxiaoniao/21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/NeverGiveUp/bgm_01.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/NeverGiveUp/cbgm_01.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/NeverGiveUp/gbgm_01.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/NeverGiveUp/gulu_01.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/NeverGiveUp/jbgm_01.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/NeverGiveUp/nbgm_01.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/NeverGiveUp/normal_01.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/NeverGiveUp/sbgm.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/NeverGiveUp/shakeeyes.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/dazi/click.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/dazi/endure.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/dazi/explosion.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/dazi/hit.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/dazi/plasma.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/eluosifangkuai/bg.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/pop/bgm.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/pop/bubble.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/pop/count.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/pop/evil.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/pop/opening/kittyopening.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/pop/opening/opening.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/pop/over.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/pop/play/static.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/pop/pop.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/pop/win.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/pop/yipee.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/tanke/attack.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/tanke/bulletCrack.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/tanke/move.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/tanke/playerCrack.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/tanke/prop.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/tanke/start.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/tanke/tankCrack.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/sounds/games/xiangsuxiaoniao/sound1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/games/dazi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/games/eluosifangkuai.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/games/game2048.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/games/nevergiveup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/games/pacman.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/games/pop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/games/tanke.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/games/xiangqi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/games/xiangsuxiaoniao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/myblog_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/myblog_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myblog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/ENCtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/ENCtest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/MyBlogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/MyBlogApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/component/JavaScriptCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/component/JavaScriptCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/component/PhoneRandomBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/component/PhoneRandomBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/component/ScheduledTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/component/ScheduledTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/component/StringAndArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/component/StringAndArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/config/DruidDataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/config/DruidDataSourceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/config/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/config/WebMvcConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/constant/OSSClientConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/constant/OSSClientConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/constant/RoleConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/constant/RoleConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/constant/SiteOwner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/constant/SiteOwner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/controller/ArchivesControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/controller/ArchivesControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/controller/BackControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/controller/BackControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/controller/CategoriesControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/controller/CategoriesControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/controller/CommentControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/controller/CommentControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/controller/EditorControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/controller/EditorControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/controller/ErrorPageControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/controller/ErrorPageControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/controller/FriendlyLinkControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/controller/FriendlyLinkControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/controller/GetPhoneCodeControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/controller/GetPhoneCodeControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/controller/IndexControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/controller/IndexControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/controller/LeaveMessageControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/controller/LeaveMessageControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/controller/LoginControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/controller/LoginControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/controller/MyStoryControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/controller/MyStoryControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/controller/RegisterControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/controller/RegisterControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/controller/ShowArticleControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/controller/ShowArticleControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/controller/SuperAdminControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/controller/SuperAdminControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/controller/TagsControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/controller/TagsControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/controller/UserControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/controller/UserControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/exception/MyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/exception/MyException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/exception/MyExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/exception/MyExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/ArchiveMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/ArchiveMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/ArticleLikesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/ArticleLikesMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/ArticleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/CategoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/CommentLikesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/CommentLikesMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/CommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/CommentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/FeedBackMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/FeedBackMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/FriendLinkMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/FriendLinkMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/LeaveMessageLikesRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/LeaveMessageLikesRecordMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/LeaveMessageMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/LeaveMessageMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/PrivateWordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/PrivateWordMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/TagMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/TagMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/VisitorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/mapper/VisitorMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/model/Archive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/model/Archive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/model/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/model/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/model/ArticleLikesRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/model/ArticleLikesRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/model/Categories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/model/Categories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/model/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/model/CommentLikesRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/model/CommentLikesRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/model/FeedBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/model/FeedBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/model/FriendLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/model/FriendLink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/model/LeaveMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/model/LeaveMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/model/LeaveMessageLikesRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/model/LeaveMessageLikesRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/model/Photo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/model/Photo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/model/PrivateWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/model/PrivateWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/model/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/model/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/model/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/model/Tag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/model/UserReadNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/model/UserReadNews.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/model/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/model/Visitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/model/album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/model/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/redis/HashRedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/redis/HashRedisServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/redis/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/redis/RedisService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/redis/StringRedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/redis/StringRedisServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/ArchiveService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/ArchiveService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/ArticleLikesRecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/ArticleLikesRecordService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/CommentLikesRecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/CommentLikesRecordService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/FeedBackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/FeedBackService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/FriendLinkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/FriendLinkService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/LeaveMessageLikesRecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/LeaveMessageLikesRecordService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/LeaveMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/LeaveMessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/PrivateWordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/PrivateWordService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/RedisService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/TagService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/TagService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/VisitorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/VisitorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/ArchiveServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/ArchiveServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/ArticleLikesRecordServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/ArticleLikesRecordServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/ArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/CommentLikesRecordServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/CommentLikesRecordServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/CommentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/FeedBackServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/FeedBackServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/FriendLinkServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/FriendLinkServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/LeaveMessageLikesRecordServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/LeaveMessageLikesRecordServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/LeaveMessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/LeaveMessageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/PrivateWordServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/PrivateWordServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/TagServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/TagServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/VisitorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/impl/VisitorServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/service/security/CustomUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/service/security/CustomUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/utils/AliYunOSSClientUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/utils/AliYunOSSClientUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/utils/BuildArticleTabloidUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/utils/BuildArticleTabloidUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/utils/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/utils/FileUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/utils/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/utils/MD5Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/utils/ResultUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/utils/ResultUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/utils/TimeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/utils/TimeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/utils/TransCodingUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/utils/TransCodingUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/utils/testMD5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/utils/testMD5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lijie/controller/GameCenterControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lijie/controller/GameCenterControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/games/paopaolong/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/games/paopaolong/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/games/mapdata100.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/aboutme.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/aboutme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/friendlylink.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/friendlylink.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/gamecenter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/gamecenter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/mystory.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/mystory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/mylove.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/mylove.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/ENCtest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/ENCtest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/MyBlogApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/MyBlogApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/component/JavaScriptCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/component/JavaScriptCheck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/component/PhoneRandomBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/component/PhoneRandomBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/component/ScheduledTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/component/ScheduledTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/component/StringAndArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/component/StringAndArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/config/DruidDataSourceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/config/DruidDataSourceConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/config/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/config/RedisConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/config/WebMvcConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/config/WebMvcConfig$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/config/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/config/WebMvcConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/config/WebSecurityConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/config/WebSecurityConfig$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/config/WebSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/constant/OSSClientConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/constant/OSSClientConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/controller/ArchivesControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/controller/ArchivesControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/controller/BackControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/controller/BackControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/controller/CategoriesControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/controller/CategoriesControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/controller/CommentControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/controller/CommentControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/controller/EditorControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/controller/EditorControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/controller/ErrorPageControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/controller/ErrorPageControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/controller/FriendlyLinkControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/controller/FriendlyLinkControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/controller/GetPhoneCodeControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/controller/GetPhoneCodeControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/controller/IndexControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/controller/IndexControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/controller/LeaveMessageControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/controller/LeaveMessageControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/controller/LoginControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/controller/LoginControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/controller/MyStoryControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/controller/MyStoryControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/controller/RegisterControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/controller/RegisterControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/controller/ShowArticleControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/controller/ShowArticleControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/controller/SuperAdminControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/controller/SuperAdminControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/controller/TagsControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/controller/TagsControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/controller/UserControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/controller/UserControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/exception/MyException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/exception/MyException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/exception/MyExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/exception/MyExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/model/Archive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/model/Archive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/model/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/model/Article.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/model/ArticleLikesRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/model/ArticleLikesRecord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/model/Categories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/model/Categories.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/model/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/model/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/model/CommentLikesRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/model/CommentLikesRecord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/model/FeedBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/model/FeedBack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/model/FriendLink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/model/FriendLink.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/model/LeaveMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/model/LeaveMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/model/LeaveMessageLikesRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/model/LeaveMessageLikesRecord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/model/Photo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/model/Photo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/model/PrivateWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/model/PrivateWord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/model/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/model/Result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/model/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/model/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/model/Tag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/model/Tag.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/model/UserReadNews.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/model/UserReadNews.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/model/Visitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/model/Visitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/model/album.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/model/album.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/redis/HashRedisServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/redis/HashRedisServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/redis/StringRedisServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/redis/StringRedisServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/service/RedisService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/service/RedisService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/ArchiveServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/ArchiveServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/ArticleLikesRecordServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/ArticleLikesRecordServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/ArticleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/CategoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/CommentLikesRecordServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/CommentLikesRecordServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/CommentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/CommentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/FeedBackServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/FeedBackServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/FriendLinkServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/FriendLinkServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/LeaveMessageLikesRecordServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/LeaveMessageLikesRecordServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/LeaveMessageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/LeaveMessageServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/PrivateWordServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/PrivateWordServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/TagServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/TagServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/VisitorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/service/impl/VisitorServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/service/security/CustomUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/service/security/CustomUserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/utils/BuildArticleTabloidUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/utils/BuildArticleTabloidUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/utils/FileUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/utils/FileUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/utils/MD5Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/utils/MD5Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/utils/ResultUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/utils/ResultUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/utils/TimeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/utils/TimeUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/utils/TransCodingUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/utils/TransCodingUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lijie/utils/testMD5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lijie/utils/testMD5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/aboutme.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/aboutme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/friendlylink.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/friendlylink.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/gamecenter.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/gamecenter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/mystory.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/mystory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/mylove.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/mylove.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog.war.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/MyBlogApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/MyBlogApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/component/JavaScriptCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/component/JavaScriptCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/component/PhoneRandomBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/component/PhoneRandomBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/component/ScheduledTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/component/ScheduledTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/component/StringAndArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/component/StringAndArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/config/DruidDataSourceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/config/DruidDataSourceConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/config/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/config/RedisConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/config/WebMvcConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/config/WebMvcConfig$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/config/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/config/WebMvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/config/WebSecurityConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/config/WebSecurityConfig$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/constant/OSSClientConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/constant/OSSClientConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/constant/RoleConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/constant/RoleConstant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/constant/SiteOwner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/constant/SiteOwner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/ArchivesControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/ArchivesControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/BackControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/BackControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/CategoriesControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/CategoriesControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/CommentControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/CommentControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/EditorControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/EditorControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/ErrorPageControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/ErrorPageControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/FriendlyLinkControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/FriendlyLinkControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/GetPhoneCodeControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/GetPhoneCodeControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/IndexControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/IndexControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/LeaveMessageControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/LeaveMessageControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/LoginControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/LoginControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/MyStoryControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/MyStoryControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/RegisterControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/RegisterControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/ShowArticleControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/ShowArticleControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/SuperAdminControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/SuperAdminControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/TagsControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/TagsControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/UserControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/controller/UserControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/exception/MyException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/exception/MyException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/exception/MyExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/exception/MyExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/ArchiveMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/ArchiveMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/ArticleLikesMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/ArticleLikesMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/ArticleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/ArticleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/CategoryMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/CommentLikesMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/CommentLikesMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/CommentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/CommentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/FeedBackMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/FeedBackMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/FriendLinkMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/FriendLinkMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/LeaveMessageLikesRecordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/LeaveMessageLikesRecordMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/LeaveMessageMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/LeaveMessageMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/PrivateWordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/PrivateWordMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/TagMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/TagMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/VisitorMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/mapper/VisitorMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/Archive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/Archive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/ArticleLikesRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/ArticleLikesRecord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/Categories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/Categories.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/Comment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/CommentLikesRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/CommentLikesRecord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/FeedBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/FeedBack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/FriendLink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/FriendLink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/LeaveMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/LeaveMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/LeaveMessageLikesRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/LeaveMessageLikesRecord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/PrivateWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/PrivateWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/Tag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/Tag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/UserReadNews.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/UserReadNews.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/Visitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/model/Visitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$UndoHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note$UndoHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/note.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/redis/HashRedisServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/redis/HashRedisServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/redis/RedisService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/redis/RedisService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/redis/StringRedisServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/redis/StringRedisServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/ArchiveService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/ArchiveService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/ArticleLikesRecordService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/ArticleLikesRecordService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/ArticleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/CommentLikesRecordService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/CommentLikesRecordService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/CommentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/FeedBackService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/FeedBackService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/FriendLinkService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/FriendLinkService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/LeaveMessageLikesRecordService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/LeaveMessageLikesRecordService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/LeaveMessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/LeaveMessageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/PrivateWordService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/PrivateWordService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/RedisService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/RedisService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/TagService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/TagService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/VisitorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/VisitorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/ArchiveServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/ArchiveServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/ArticleLikesRecordServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/ArticleLikesRecordServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/ArticleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/CommentLikesRecordServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/CommentLikesRecordServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/CommentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/CommentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/FeedBackServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/FeedBackServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/FriendLinkServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/FriendLinkServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/LeaveMessageLikesRecordServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/LeaveMessageLikesRecordServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/LeaveMessageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/LeaveMessageServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/PrivateWordServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/PrivateWordServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/TagServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/TagServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/VisitorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/impl/VisitorServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/security/CustomUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/service/security/CustomUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/utils/AliYunOSSClientUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/utils/AliYunOSSClientUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/utils/BuildArticleTabloidUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/utils/BuildArticleTabloidUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/utils/FileUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/utils/FileUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/utils/MD5Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/utils/MD5Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/utils/ResultUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/utils/ResultUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/utils/TimeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/utils/TimeUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/utils/TransCodingUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/lijie/utils/TransCodingUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/css/aboutme.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/css/aboutme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/css/editormd/editor.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/css/editormd/editor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/css/friendlylink.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/css/friendlylink.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/css/mystory.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/css/mystory.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/css/show.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/css/show.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/css/update.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/css/update.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/css/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/css/user.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/js/editormd/editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/js/editormd/editor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/js/editormd/editormd.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/js/editormd/editormd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/js/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/js/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/js/show.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/js/show.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/js/superadmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/js/superadmin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/js/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/static/js/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/403.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/403.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/aboutme.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/aboutme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/editor.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/editor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/friendlylink.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/friendlylink.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/mylove.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/mylove.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/mystory.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/mystory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/superadmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/superadmin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/templates/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.lijie.MyBlogApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.lijie.MyBlogApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.lijie.poolTest.DatasourceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.lijie.poolTest.DatasourceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.lijie.service.RedisTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.lijie.service.RedisTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.lijie.MyBlogApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.lijie.MyBlogApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.lijie.poolTest.DatasourceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.lijie.poolTest.DatasourceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.lijie.service.RedisTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.lijie.service.RedisTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -336,7 +505,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/sounds/games/paopaolong" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -344,13 +513,14 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JavaProject\MyBlog-master\src\main\resources\static\img\games\dazi\sprites" />
       <recent name="E:\JavaProject\MyBlog-master\src\main\resources\static\img\games" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -359,11 +529,11 @@
       <recent name="com.lijie.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\JavaProject\MyBlog-master\src\main\resources\static\sounds\games\paopaolong" />
-      <recent name="E:\JavaProject\MyBlog-master\src\main\resources\static\sounds\games" />
-      <recent name="E:\JavaProject\MyBlog-master\src\main\resources\static\img\games\paopaolong" />
-      <recent name="E:\JavaProject\MyBlog-master\src\main\resources\static\img\games\tuixiangzi" />
-      <recent name="E:\JavaProject\MyBlog-master\src\main\resources\static\img\games" />
+      <recent name="E:\JavaProject\MyBlog-master\src\main\resources\static\css\games\eluosifangkuai\vendor" />
+      <recent name="E:\JavaProject\MyBlog-master\src\main\resources\static\css\games\eluosifangkuai" />
+      <recent name="E:\JavaProject\MyBlog-master\src\main\resources\static\img\games\eluosifangkuai" />
+      <recent name="E:\JavaProject\MyBlog-master\src\main\resources\static\js\games\eluosifangkuai" />
+      <recent name="E:\JavaProject\MyBlog-master\src\main\resources\static\sounds\games\eluosifangkuai" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.MyBlogApplication">
@@ -422,7 +592,11 @@
       <updated>1576552620108</updated>
       <workItem from="1576552635011" duration="1284000" />
       <workItem from="1576559739419" duration="13738000" />
-      <workItem from="1576631172542" duration="26852000" />
+      <workItem from="1576631172542" duration="27890000" />
+      <workItem from="1576717530513" duration="16812000" />
+      <workItem from="1576753806497" duration="2126000" />
+      <workItem from="1576757663503" duration="2369000" />
+      <workItem from="1576804281195" duration="2230000" />
     </task>
     <task id="LOCAL-00001" summary="增加相册">
       <created>1576577039954</created>
@@ -431,15 +605,36 @@
       <option name="project" value="LOCAL" />
       <updated>1576577039954</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加游戏">
+      <created>1576662826001</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576662826001</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加相册" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加相册" />
+    <MESSAGE value="增加游戏" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加游戏" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="73" key="#Deployment" timestamp="1576576896007">
@@ -458,69 +653,69 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="364" y="402" width="941" height="335" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1576656543575" />
-    <state x="266" y="8" key="CommitChangelistDialog2" timestamp="1576577005717">
+    <state x="266" y="8" key="CommitChangelistDialog2" timestamp="1576758615965">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="266" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576577005717" />
-    <state x="572" y="170" key="FileChooserDialogImpl" timestamp="1576553745891">
+    <state x="266" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576758615965" />
+    <state x="572" y="170" key="FileChooserDialogImpl" timestamp="1576758510845">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="572" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576553745891" />
-    <state width="1493" height="187" key="GridCell.Tab.0.bottom" timestamp="1576662300632">
+    <state x="572" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576758510845" />
+    <state width="1493" height="187" key="GridCell.Tab.0.bottom" timestamp="1576805688469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576662300632" />
-    <state width="1493" height="187" key="GridCell.Tab.0.center" timestamp="1576662300631">
+    <state width="1493" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576805688469" />
+    <state width="1493" height="187" key="GridCell.Tab.0.center" timestamp="1576805688469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576662300631" />
-    <state width="1493" height="187" key="GridCell.Tab.0.left" timestamp="1576662300631">
+    <state width="1493" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576805688469" />
+    <state width="1493" height="187" key="GridCell.Tab.0.left" timestamp="1576805688469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576662300631" />
-    <state width="1493" height="187" key="GridCell.Tab.0.right" timestamp="1576662300632">
+    <state width="1493" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576805688469" />
+    <state width="1493" height="187" key="GridCell.Tab.0.right" timestamp="1576805688469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576662300632" />
-    <state width="1493" height="187" key="GridCell.Tab.1.bottom" timestamp="1576662300632">
+    <state width="1493" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576805688469" />
+    <state width="1493" height="187" key="GridCell.Tab.1.bottom" timestamp="1576805688470">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576662300632" />
-    <state width="1493" height="187" key="GridCell.Tab.1.center" timestamp="1576662300632">
+    <state width="1493" height="187" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576805688470" />
+    <state width="1493" height="187" key="GridCell.Tab.1.center" timestamp="1576805688469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1576662300632" />
-    <state width="1493" height="187" key="GridCell.Tab.1.left" timestamp="1576662300632">
+    <state width="1493" height="187" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1576805688469" />
+    <state width="1493" height="187" key="GridCell.Tab.1.left" timestamp="1576805688469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1576662300632" />
-    <state width="1493" height="187" key="GridCell.Tab.1.right" timestamp="1576662300632">
+    <state width="1493" height="187" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1576805688469" />
+    <state width="1493" height="187" key="GridCell.Tab.1.right" timestamp="1576805688470">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1576662300632" />
+    <state width="1493" height="187" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1576805688470" />
     <state x="349" y="77" key="Registry" timestamp="1576567915530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="77" key="Registry/0.0.1536.824@0.0.1536.824" timestamp="1576567915530" />
-    <state x="272" y="0" key="SettingsEditor" timestamp="1576563507378">
+    <state x="272" y="0" key="SettingsEditor" timestamp="1576758547724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576563507378" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1576577126550">
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576758547724" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1576662911089">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576577126550" />
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1576631312892">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576662911089" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1576804306205">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1576631312892" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1576804306205" />
     <state x="564" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576576503524">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="564" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1576576503524" />
-    <state x="483" y="214" key="git4idea.merge.GitPullDialog" timestamp="1576577089157">
+    <state x="483" y="214" key="git4idea.merge.GitPullDialog" timestamp="1576662856610">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="483" y="214" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1576577089157" />
+    <state x="483" y="214" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1576662856610" />
   </component>
 </project>

@@ -13,6 +13,7 @@
     <link rel="icon" type="image/x-icon" href="https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/favicon.ico">
     <link href="https://lib.baomitu.com/amazeui/2.7.2/css/amazeui.min.css" rel="stylesheet">
     <link href="https://lib.baomitu.com/font-awesome/5.8.0/css/fontawesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bang/bang.css">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/plugs_paging.css">
@@ -24,6 +25,7 @@
 
 </head>
 <body>
+<div class="firecrackers"></div>
 <div id="app">
     <!--主页头部含有小屏幕时名片，不应使用共有头部-->
     <div class="header">
@@ -32,19 +34,19 @@
                 <a href="/" class="blogTitleName"><img src="https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/icon.jpeg" class="imgStyle">程序猿阿杰</a>
             </h1>
             <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" style="background-color: #CCCCCC;border-color: white;border-radius: 6px" data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
-
+			<!--手机页面  -->  
             <div id="personal-card" class="am-dropdown am-show-md-down" data-am-dropdown style="float: right">
-                <button id="personal-card-btn" class="am-btn am-btn-success am-dropdown-toggle" style="padding: 0"><img src="https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/static/img/weixin.jpg"><span class="am-icon-caret-down"></span></button>
+                <button id="personal-card-btn" class="am-btn am-btn-success am-dropdown-toggle" style="padding: 0"><img src="https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/wexinCode.jpg"><span class="am-icon-caret-down"></span></button>
                 <div class="am-dropdown-content">
                     <div class="personal-card-show" style="text-align: center">
                         <div class="personal-card-show-img">
-                            <img src="https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/static/img/weixin.jpg">
+                            <img src="https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/wexinCode.jpg">
                         </div>
                         <div class="personal-card-show-name">
                             <h4 style="font-weight: 500">李杰</h4>
                         </div>
                         <div class="personal-card-show-words">
-                            <small style="font-size: 13px;color: #808080ad;">多年以后，愿你的城市，有清风，有烈酒，也有人是你的归途。</small>
+                            <small style="font-size: 13px;color: #808080ad;">死生契阔，与子成说。执子之手，以子偕老。</small>
                         </div>
                         <div class="personal-card-show-connection" style="margin-top: 10px">
                             <span style="color: #009688">微信：lijie13452646414</span><br>
@@ -53,19 +55,17 @@
                         <div class="personal-card-show-attention_btn">
                             <button class="myCardBtn am-btn am-btn-secondary am-round attention_btn" data-am-offcanvas="{target: '#doc-oc-demo1'}" style="margin-top: 10px">扫描二维码关注我</button>
                         </div>
-                        <!--名片左侧栏-->
                         <div id="doc-oc-demo1" class="am-offcanvas">
                             <div class="am-offcanvas-bar">
                                 <div class="am-offcanvas-content">
                                     <p>
-                                        我不愿让你一个人 <br/>
-                                        承受这世界的残忍 <br/>
-                                        我不愿眼泪陪你到 永恒<br><br>
-
-                                        很抱歉你的过去我没来及参与<br>
-                                        那么<br>
-                                        余生我陪你度过<br>
-                                        可好
+                                            落叶的位置<br/>
+                                            谱出一首诗<br/>
+                                            我们的故事才正要开始<br/>
+                                            这是第一次<br>
+                                            爱一个人爱得如此慷慨又自私<br>
+                                            你是<br>
+                                            我的关键词<br>
                                     </p>
 
                                     <div class="halving-line">
@@ -77,12 +77,12 @@
                                         <p>想交个朋友吗<br>那就快扫下面吧</p>
                                     </div>
                                     <hr data-am-widget="divider" style="width: 50%" class="am-divider am-divider-dashed" />
-                                    <div class="zhy-qq-weixin">
-                                        <div class="zhy-qq-box">
+                                    <div class="lijie-qq-weixin">
+                                        <div class="lijie-qq-box">
                                             <p>QQ</p>
                                             <img src=""  class="qq_code am-img-thumbnail am-radius">
                                         </div>
-                                        <div class="zhy-weixin-box">
+                                        <div class="lijie-weixin-box">
                                             <p>微信</p>
                                             <img src=""  class="weixin_code am-img-thumbnail am-radius">
                                         </div>
@@ -96,13 +96,15 @@
                                 <div class="am-u-sm-3"><a href="https://github.com/LiJie1211" target="_blank" class="am-icon-github am-icon-sm" title="GitHub" style="color: #337ab7"></a></div>
                                 <div class="am-u-sm-3"><a href="https://gitee.com/lijiewmq" class="am-icon-gg am-icon-sm" target="_blank" title="码云" style="color: #337ab7"></a></div>
                                 <div class="am-u-sm-3"><a href="https://weibo.com/5950131046" target="_blank" class="am-icon-weibo am-icon-sm" title="微博" style="color: #337ab7"></a></div>
+                                <div class="am-u-sm-3"><a href="https://me.csdn.net/qq_39126996" target="_blank" title="CSDN" style="color: #337ab7"><img src="https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/csdn.jpg" style="width: 25px"></a></div>
                                 <div class="am-u-sm-3"><a href="https://www.cqut.edu.cn" target="_blank" title="重庆理工大学" style="color: #337ab7"><img src="https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/ligong.jpg" style="width: 25px"></a></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
+            
+            
             <div class="am-collapse am-topbar-collapse" id="doc-topbar-collapse">
                 <ul class="am-nav am-nav-pills am-topbar-nav">
                     <li><a class="top_bar" href="/" style="cursor: pointer;"><span class="am-icon-home"></span>&nbsp;首页</a></li>
@@ -112,8 +114,11 @@
                     <li><a class="top_bar" href="/update" style="cursor: pointer;"><span class="am-icon-calendar-plus-o"></span>&nbsp;更新</a></li>
                     <li><a class="top_bar" href="/friendlylink" style="cursor: pointer;"><span class="am-icon-street-view"></span>&nbsp;友链</a></li>
                     <li><a class="top_bar" href="/aboutme" style="cursor: pointer;"><span class="am-icon-user"></span>&nbsp;关于我</a> </li>
+                    <li><a class="top_bar" href="/gamecenter" style="cursor: pointer;"><span class="am-icon-gamepad"></span>&nbsp;游戏中心</a> </li>
+                    <!--
+                    <li><a class="top_bar" href="/album" style="cursor: pointer;"><span class="am-icon-picture-o"></span>&nbsp;我的相册</a> </li>
+                    -->
                 </ul>
-
                 <div class="am-topbar-right" th:if="${#httpServletRequest.remoteUser}">
                     <div class="am-dropdown" data-am-dropdown="{boundary: '.am-topbar'}">
                         <button class="personalSpace am-btn am-btn-secondary am-topbar-btn am-btn-sm am-dropdown-toggle" data-am-dropdown-toggle><span sec:authentication="name"></span> <span class="am-icon-caret-down"></span></button>
@@ -127,6 +132,9 @@
                         </ul>
                     </div>
                 </div>
+                <div style="display:none">
+                    <p>[[${#httpServletRequest.remoteUser}]]</p>
+                </div>
                 <div class="am-topbar-right" th:unless="${#httpServletRequest.remoteUser}">
                     <a href="/register" class="am-btn am-btn-primary am-topbar-btn am-btn-sm" style="color: white">注册</a>
                 </div>
@@ -134,11 +142,18 @@
                     <a href="/login" class="loginBtn am-btn am-btn-primary am-topbar-btn am-btn-sm" style="color: white">登录</a>
                 </div>
                 <div class="am-topbar-right writing am-hide-md-down">
+                        <a  href="http://www.hunlipic.com/love/love/" target="_blank" style="text-decoration: none">
+                            <img class="am-circle" src="https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/iali10.jpg">
+                            <span class="write-word">阿狸的表白</span>
+                        </a>
+                </div>
+                <div class="am-topbar-right writing am-hide-md-down">
                     <a  href="/editor" target="_blank" style="text-decoration: none">
-                        <img class="am-circle" src="https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/static/img/loading.gif" data-src="https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/static/img/writing.png">
+                        <img class="am-circle" src="https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/loading.gif" data-src="https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/writing.png">
                         <span class="write-word">写博客</span>
                     </a>
                 </div>
+                <span class="am-topbar-right writing am-hide-md-down" th:unless="!${#httpServletRequest.remoteUser}" th:inline="text">Hello [[${#httpServletRequest.remoteUser}]]!</span>
 
             </div>
         </div>
@@ -152,11 +167,11 @@
                     <i class="am-icon-volume-up" style="margin-left: 10px;color: #fbd602"></i>
                     <div class="roll">
                         <ul>
-                            <li>新增未读消息提醒，可在个人主页查看未读消息啦~~~</li>
-                            <li>即将脱离大学生活，不管怎样，总之努力就行了。</li>
-                            <li>愿你有前进一寸的勇气，亦有后退一尺的从容。</li>
-                            <li>告诉自己，明天，肯定会更好。</li>
-                            <li>有时候挺讨厌自己的，不会说话，太过善良，还没什么心眼。</li>
+                            <li>新增未读消息提醒，可在个人主页查看未读消息</li>
+                            <li>无论生活怎样，都不要忘记微笑。愿你成为自己的太阳，无需凭借谁的光。</li>
+                            <li>你走，我不送你。你来，无论多大风雨，我要去接你。</li>
+                            <li>温柔要有，但不是妥协，我们要在安静中，不慌不忙的坚强。</li>
+                            <li>生命太短，没有时间留给遗憾，若不是终点，请微笑一直向前。</li>
                         </ul>
                     </div>
                 </div>
@@ -176,7 +191,7 @@
                             <div class="am-u-sm-7" style="padding: 0 20px 0 0;">
                                 <div class="img-words">
                                     <h3 id="name">李杰</h3>
-                                    <small style="font-size: 13px;color: #808080ad">多年以后，愿你的城市，有清风，有烈酒，也有人是你的归途。</small>
+                                    <small style="font-size: 13px;color: #808080ad">死生契阔，与子成说。执子之手，以子偕老。</small>
                                 </div>
                             </div>
                         </div>
@@ -192,14 +207,13 @@
                                 <div class="am-offcanvas-bar">
                                     <div class="am-offcanvas-content">
                                         <p>
-                                            我不愿让你一个人 <br/>
-                                            承受这世界的残忍 <br/>
-                                            我不愿眼泪陪你到 永恒<br><br>
-
-                                            很抱歉你的过去我没来及参与<br>
-                                            那么<br>
-                                            余生我陪你度过<br>
-                                            可好
+                                            落叶的位置<br/>
+                                            谱出一首诗<br/>
+                                            我们的故事才正要开始<br/>
+                                            这是第一次<br>
+                                            爱一个人爱得如此慷慨又自私<br>
+                                            你是<br>
+                                            我的关键词<br>
                                         </p>
 
                                         <div class="halving-line">
@@ -211,12 +225,12 @@
                                             <p>想交个朋友吗<br>那就快扫下面吧</p>
                                         </div>
                                         <hr data-am-widget="divider" style="width: 50%" class="am-divider am-divider-dashed" />
-                                        <div class="zhy-qq-weixin">
-                                            <div class="zhy-qq-box">
+                                        <div class="lijie-qq-weixin">
+                                            <div class="lijie-qq-box">
                                                 <p>QQ</p>
                                                 <img src=""  class="qq_code am-img-thumbnail am-radius">
                                             </div>
-                                            <div class="zhy-weixin-box">
+                                            <div class="lijie-weixin-box">
                                                 <p>微信</p>
                                                 <img src=""  class="weixin_code am-img-thumbnail am-radius">
                                             </div>
@@ -238,7 +252,7 @@
                                     <a href="https://weibo.com/5950131046" target="_blank" class="am-icon-weibo am-icon-md" title="微博" data-am-popover="{content: '微博', trigger: 'hover focus'}"></a>
                                 </div>
                                 <div class="icon">
-                                    <a href="https://me.csdn.net/qq_39126996" target="_blank" title="CSDN"><img src="https://zhy-myblog.oss-cn-shenzhen.aliyuncs.com/static/img/csdn.jpg" style="width: 30px" data-am-popover="{content: 'CSDN', trigger: 'hover focus'}"></a>
+                                    <a href="https://me.csdn.net/qq_39126996" target="_blank" title="CSDN"><img src="https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/csdn.jpg" style="width: 30px" data-am-popover="{content: 'CSDN', trigger: 'hover focus'}"></a>
                                 </div>
                                 <div class="icon">
                                     <a href="https://www.cqut.edu.cn" target="_blank" title="重庆理工大学"><img src="https://lijiewmq.oss-cn-chengdu.aliyuncs.com/public/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/ligong.jpg" style="width: 30px" data-am-popover="{content: '重庆理工大学', trigger: 'hover focus'}"></a>
@@ -514,20 +528,19 @@
                     <h3 class="widget-title">公告</h3>
                     <div class="widget">
                         <div class="bg-danger">
-                            <div class="zhy-info">
+                            <div class="lijie-info">
                                 <i class="am-icon-quote-left" style="float: left"></i><br>
-                                <div class="zhy-info-day">
-                                    <p>恰到好处的喜欢最舒服</p>
-                                    <p>你不用多好</p>
-                                    <p>我喜欢就好</p>
-                                    <p>我没有很好</p>
-                                    <p>你不嫌弃就好</p>
-                                    <p style="text-align: right;padding-top: 10px">--- lijie</p>
+                                <div class="lijie-info-day">
+                                    <p>有美人兮，</p>
+                                    <p>见之不忘，</p>
+                                    <p>一日不见兮，</p>
+                                    <p>思之如狂。</p>
+                                    <p style="text-align: right;padding-top: 10px">--- 《凤求凰》</p>
                                 </div>
                                 <i class="am-icon-quote-right" style="float: right"></i>
-                                <div class="zhy-info-opinion">
+                                <div class="lijie-info-opinion">
                                     <p><strong>Welcome to my blog！！！</strong></p>
-                                    <p style="line-height: 25px">平淡对待一切<br>努力做最好的自己</p>
+                                    <p style="line-height: 25px">如果是去见你<br>那我一定用跑的</p>
                                 </div>
                             </div>
                         </div>
@@ -536,13 +549,13 @@
                         <div class="bg-myStory">
                             <div><a class="bg-myStory-a" href="/mystory">我的故事</a></div>
                         </div>
-                        <div class="myStory-words">一盆小花，一杯清茶</div>
+                        <div class="myStory-words">做温柔的人，不言不语，不争不抢</div>
                     </div>
                     <div class="myStory" >
                         <div class="bg-myGirl">
                             <div><a class="bg-myGirl-a" href="/mylove" target="_blank">我的女孩</a></div>
                         </div>
-                        <div class="myStory-words">我的女孩，你还在吗</div>
+                        <div class="myStory-words">情不知所起，一往而深，铭心刻骨</div>
                     </div>
                     <!--<div class="myStory" >-->
                         <!--<div class="bg-myStory" style="background: url(img/index/ali.jpg) repeat">-->
@@ -584,5 +597,6 @@
 <script src="js/index.js"></script>
 <script src="js/all.js"></script>
 <script src="js/plugs_paging.js"></script>
+<script src="js/bang/bianpao.js"></script>
 </body>
 </html>

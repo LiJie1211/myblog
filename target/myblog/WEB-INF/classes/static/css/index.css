@@ -175,19 +175,19 @@
     padding: 15px 0 0;
     margin-top: -10px;
 }
-.zhy-info-day{
+.lijie-info-day{
     padding: 7px 10px;
 }
-.zhy-info-day p{
+.lijie-info-day p{
     text-align: center;
     font-size: 14px;
     line-height: 19px;
 }
-.zhy-info-opinion{
+.lijie-info-opinion{
     margin-top: 25px;
     text-align: center;
 }
-.zhy-info-opinion p{
+.lijie-info-opinion p{
     font-size: 16px;
     font-family: 仿宋;
 }
@@ -263,19 +263,19 @@ a.linkColor{
 .halving-line i{
     margin: auto 10px;
 }
-.zhy-qq-weixin p{
+.lijie-qq-weixin p{
     color: lightyellow;
     font-size: large;
     font-family: 仿宋
 }
-.zhy-qq-box img{
+.lijie-qq-box img{
     width:130px;
     border: 10px;
 }
-.zhy-weixin-box{
+.lijie-weixin-box{
     margin-top: 20px;
 }
-.zhy-weixin-box img{
+.lijie-weixin-box img{
     width:130px;
     border: 10px;
 }
@@ -316,6 +316,12 @@ a.tag:hover{
 .read-all{
     margin-left: 7px;
 }
+.welcome-text{
+	margin-top:40px;
+	font-size: 16px;
+	line-height: 100%;
+}
+
 .read-all a{
     padding: 3px 0;
     border-bottom: 2px solid;
@@ -425,6 +431,9 @@ a.tag:hover{
 }
 .bg-myGirl{
     background:repeating-linear-gradient(45deg, #ffbb33, #fb3 15px, #58a 0,#58a 30px);
+}
+.welcome-text{
+    margin: 12px 13px 0 0;
 }
 /*background:#eee;*/
 /*background-image: linear-gradient(45deg,#bbb 25%,transparent 0),linear-gradient(45deg,transparent 75%,#bbb 0),linear-gradient(45deg,#bbb 25%,transparent 0),linear-gradient(45deg,transparent 75%,#bbb 0);*/

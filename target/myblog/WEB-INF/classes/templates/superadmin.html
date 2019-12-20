@@ -44,12 +44,13 @@
                     <li class="superAdminClick friendLink"><a><span class="am-icon-users"></span> 友链管理</a></li>
                     <li class="superAdminClick userFeedback"><a><span class="am-icon-table"></span> 反馈</a></li>
                     <li class="superAdminClick privateWord" style="width: 100%"><a><span class="am-icon-pencil-square-o"></span> 悄悄话</a></li>
+                    <li class="superAdminClick userManagement" style="width: 100%"><a><span class="am-icon-user"></span> 用户管理</a></li>
                 </ul>
 
                 <div class="am-panel am-panel-default admin-sidebar-panel">
                     <div class="am-panel-bd">
                         <p><span class="am-icon-bookmark"></span> 公告</p>
-                        <p>时光静好，与君语；细水流年，与君同。—— 阿杰</p>
+                        <p>我爱你不后悔，也尊重故事结尾。—— 阿杰</p>
                     </div>
                 </div>
 
@@ -168,11 +169,38 @@
                         </div>
                     </div>
                 </div>
+                <div class="superFunction" id="userManagement">
+                    <div class="subject">
+                        <div class="users">
+                            <div class="am-g">
+                                <div class="am-u-sm-12 " style="padding-left: 0;">
+                                    <ol class="am-breadcrumb  am-breadcrumb-slash">
+                                        <li class="am-active am-icon-home"> 后台管理</li>
+                                        <li class="am-active">用户管理</li>
+                                    </ol>
+                                    <div class="userManagementTable">
+                                        <table class="table am-table am-table-bd am-table-striped admin-content-table  am-animation-slide-right">
+                                            <thead>
+                                            <tr>
+                                                <th>ID</th><th>电话</th><th>昵称</th><th>真名</th><th>邮件</th><th>性别</th><th>角色</th><th>操作</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody class="tables">
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <footer class="admin-content-footer">
                 <hr>
-                <p class="am-padding-left">&copy; 2018-2019 程序猿张先森 - <i class="am-icon-coffee" style="margin: 0 5px"></i>张海洋 版权所有</p>
+                <p class="am-padding-left">&copy; 2019-2020 程序猿阿杰 - <i class="am-icon-coffee" style="margin: 0 5px"></i>李杰 版权所有</p>
             </footer>
         </div>
 
@@ -248,6 +276,20 @@
                 <div class="am-modal-footer">
                     <span class="am-modal-btn" data-am-modal-cancel>取消</span>
                     <span class="sureFriendLinkDeleteBtn am-modal-btn" data-am-modal-confirm>确定</span>
+                </div>
+            </div>
+        </div>
+        
+        <!--删除用户模态框-->
+        <div class="am-modal am-modal-confirm" tabindex="-1" id="deleteUser">
+            <div class="am-modal-dialog">
+                <div class="am-modal-hd">删除用户</div>
+                <div class="am-modal-bd">
+                    你确定要删除吗？删除了就无法恢复了呦!
+                </div>
+                <div class="am-modal-footer">
+                    <span class="am-modal-btn" data-am-modal-cancel>取消</span>
+                    <span class="sureUserDeleteBtn am-modal-btn" data-am-modal-confirm>确定</span>
                 </div>
             </div>
         </div>

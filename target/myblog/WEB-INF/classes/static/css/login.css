@@ -8,6 +8,14 @@
 .i_love_you p {
     font-size: 14px;
 }
+.site-inner-img{
+    text-align: center;
+}
+.site-inner-img img{
+    width: 450px;
+    margin: 0 auto;
+    max-width: 100%;
+}
 .login_error{
     margin-top: 20px;
  }

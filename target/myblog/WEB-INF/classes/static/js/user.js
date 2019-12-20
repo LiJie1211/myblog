@@ -124,12 +124,12 @@ savePersonalDateBtn.click(function () {
             url:'/savePersonalDate',
             dataType:'json',
             data:{
-                username:username.val(),
-                trueName:trueName.val(),
-                birthday:birthday.val(),
-                gender:genderValue,
-                email:email.val(),
-                personalBrief:personalBrief.val()
+                "username":username.val(),
+                "trueName":trueName.val(),
+                "birthday":birthday.val(),
+                "gender":genderValue,
+                "email":email.val(),
+                "personalBrief":personalBrief.val()
             },
             success:function (data) {
                 if(data['status'] == 403){
