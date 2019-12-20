@@ -9,16 +9,16 @@ public class OSSClientConstants {
     /**
      * 阿里云API的外网域名
      */
-    public static final String ENDPOINT = "oss-cn-chengdu.aliyuncs.com";
+    public static final String ENDPOINT = "";
 
     /**
      * 阿里云API的密钥Access Key ID
      */
-    public static final String ACCESS_KEY_ID = "LTAI4FcuAQsqo5NcVzPRbuaq";
+    public static final String ACCESS_KEY_ID = "";
     /**
      *阿里云API的密钥Access Key Secret
      */
-    public static final String ACCESS_KEY_SECRET = "iujPrmrYW0GnYOTpNfyHMzXi5PtoNn";
+    public static final String ACCESS_KEY_SECRET = "";
 
     /**
      * 阿里云API的bucket名称
