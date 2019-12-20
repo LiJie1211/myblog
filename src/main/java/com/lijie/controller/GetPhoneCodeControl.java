@@ -68,8 +68,8 @@ public class GetPhoneCodeControl {
         //可自助调整超时时间
         System.setProperty("sun.net.client.defaultConnectTimeout", "10000");
         System.setProperty("sun.net.client.defaultReadTimeout", "10000");
-        //"***"分别填写自己的AccessKey ID和Secret
-        IClientProfile profile = DefaultProfile.getProfile("cn-hangzhou", "LTAI4FcuAQsqo5NcVzPRbuaq", "iujPrmrYW0GnYOTpNfyHMzXi5PtoNn");
+        //"***"分别填写自己的服务器地址、AccessKey ID和Secret
+        IClientProfile profile = DefaultProfile.getProfile("", "", "");
         DefaultProfile.addEndpoint("cn-hangzhou", "cn-hangzhou", "Dysmsapi", "dysmsapi.aliyuncs.com");
         IAcsClient acsClient = new DefaultAcsClient(profile);
         SendSmsRequest request = new SendSmsRequest();
